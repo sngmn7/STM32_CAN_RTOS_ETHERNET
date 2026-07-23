@@ -1,3 +1,5 @@
+commute/
+stm32_imupart/
 **/Debug/
 **/Release/
 *.o
