@@ -1,0 +1,3 @@
+../Core/Src/udp_echo.c:56:13:UDP_CommandReceiveCallback	32	static
+../Core/Src/udp_echo.c:117:7:UDP_Echo_Init	16	static
+../Core/Src/udp_echo.c:157:9:UDP_Command_Take	16	static

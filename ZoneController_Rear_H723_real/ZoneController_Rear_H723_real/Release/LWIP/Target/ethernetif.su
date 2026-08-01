@@ -1,0 +1,16 @@
+../LWIP/Target/ethernetif.c:601:9:ETH_PHY_IO_DeInit	0	static
+../LWIP/Target/ethernetif.c:273:14:low_level_output	64	static
+../LWIP/Target/ethernetif.c:442:6:pbuf_free_custom	8	static
+../LWIP/Target/ethernetif.c:644:9:ETH_PHY_IO_GetTick	0	static
+../LWIP/Target/ethernetif.c:584:9:ETH_PHY_IO_Init	8	static
+../LWIP/Target/ethernetif.c:613:9:ETH_PHY_IO_ReadReg	8	static
+../LWIP/Target/ethernetif.c:630:9:ETH_PHY_IO_WriteReg	8	static
+../LWIP/Target/ethernetif.c:341:6:ethernetif_input	32	static
+../LWIP/Target/ethernetif.c:464:7:sys_now	0	static
+../LWIP/Target/ethernetif.c:477:6:HAL_ETH_MspInit	64	static
+../LWIP/Target/ethernetif.c:539:6:HAL_ETH_MspDeInit	8	static
+../LWIP/Target/ethernetif.c:653:6:ethernet_link_check_state	120	static
+../LWIP/Target/ethernetif.c:391:7:ethernetif_init	32	static
+../LWIP/Target/ethernetif.c:710:6:HAL_ETH_RxAllocateCallback	16	static
+../LWIP/Target/ethernetif.c:732:6:HAL_ETH_RxLinkCallback	12	static,ignoring_inline_asm
+../LWIP/Target/ethernetif.c:772:6:HAL_ETH_TxFreeCallback	0	static

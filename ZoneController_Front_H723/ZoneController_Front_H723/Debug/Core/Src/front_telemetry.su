@@ -1,0 +1,2 @@
+../Core/Src/front_telemetry.c:42:7:FrontTelemetry_Init	8	static
+../Core/Src/front_telemetry.c:64:6:FrontTelemetry_Process	56	static

@@ -1,0 +1,2 @@
+../Core/Src/rear_telemetry.c:42:7:RearTelemetry_Init	8	static
+../Core/Src/rear_telemetry.c:63:6:RearTelemetry_Process	72	static

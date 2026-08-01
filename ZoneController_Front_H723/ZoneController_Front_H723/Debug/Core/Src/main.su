@@ -1,0 +1,17 @@
+../Core/Src/main.c:210:13:EthernetMPU_Config	24	static
+../Core/Src/main.c:235:13:CAN_WriteU32LE	16	static
+../Core/Src/main.c:246:17:CAN_ReadU32LE	16	static
+../Core/Src/main.c:265:13:CAN250_Start	48	static
+../Core/Src/main.c:329:13:CAN250_SendPing	16	static
+../Core/Src/main.c:365:26:FrontCommand_SendRaw	64	static
+../Core/Src/main.c:398:26:FrontCommand_SendU8	24	static
+../Core/Src/main.c:405:26:FrontCommand_SendU16	24	static
+../Core/Src/main.c:413:13:FrontCommand_SchedulerInit	16	static
+../Core/Src/main.c:425:13:FrontCommand_SendNext	24	static
+../Core/Src/main.c:500:13:CAN_UpdateDiagnostics	8	static
+../Core/Src/main.c:525:5:main	40	static
+../Core/Src/main.c:635:6:SystemClock_Config	120	static
+../Core/Src/main.c:695:6:HAL_FDCAN_RxFifo0Callback	16	static
+../Core/Src/main.c:910:6:HAL_FDCAN_ErrorCallback	16	static
+../Core/Src/main.c:922:6:MPU_Config	24	static
+../Core/Src/main.c:953:6:Error_Handler	4	static,ignoring_inline_asm
