@@ -1,0 +1,10 @@
+commute/
+stm32_imupart/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.list
+*.map
