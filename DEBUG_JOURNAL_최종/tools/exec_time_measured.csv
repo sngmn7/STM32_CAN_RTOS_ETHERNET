@@ -1,0 +1,29 @@
+﻿보드,구간,심볼,종류,min_us,max_us,avg_us,표본수,1ms초과
+Front_H723,FDCAN RX ISR,perf_can_isr,실행시간,7,56,17,104513,0
+Front_H723,지령변화->CAN송신 [지연],perf_cmd_latency,지연,20,208,35,202,0
+Front_H723,메인루프 1바퀴,perf_loop_period,주기,68,929712,85,4170209,4
+Front_H723,MX_LWIP_Process(),perf_lwip_process,실행시간,4,487,20,4177360,0
+Front_H723,지령변화->종단반영 [지연],perf_reflect_latency,지연,808,28228,5905,200,196
+Front_H723,CAN_UpdateDiagnostics(),perf_x_can_diag,실행시간,3,25,10,4198739,0
+Front_H723,FrontCommand_SendNext(),perf_x_cmd_send,실행시간,18,47,30,4205783,0
+Front_H723,ReportDiagnostics(),perf_x_diag,실행시간,13,37,22,4213021,0
+Front_H723,Telemetry_SendDtc(),perf_x_dtc_tx,실행시간,1,160,16,4220432,0
+Front_H723,Telemetry_SendPerf(),perf_x_perf_tx,실행시간,1,121,16,4227617,0
+Front_H723,Telemetry_Process(),perf_x_tele,실행시간,1,115,18,4234729,0
+Front_H723,FrontZoneNetwork_Process(),perf_x_zone_net,실행시간,2,111,21,4241821,0
+Rear_H723,메인루프 1바퀴,perf_loop_period,주기,68,547,84,33114683,0
+Rear_H723,MX_LWIP_Process(),perf_lwip_process,실행시간,4,217,20,33122042,0
+Rear_H723,지령변화->CAN송신 [지연],perf_rear_cmd_latency,지연,17,39,19,200,0
+Rear_H723,지령변화->텔레메트리 [지연],perf_rear_reflect_latency,지연,80,8529,95,200,6
+Rear_H723,CAN_UpdateDiagnostics(),perf_x_can_diag,실행시간,6,28,13,33152156,0
+Rear_H723,ReportDiagnostics(),perf_x_diag,실행시간,19,43,28,33159499,0
+Rear_H723,Telemetry_SendDtc(),perf_x_dtc_tx,실행시간,1,138,16,33167075,0
+Rear_H723,LED_CommandUpdate(),perf_x_led_cmd,실행시간,2,43,17,33174517,0
+Rear_H723,메인루프 1바퀴,perf_x_loop,주기,68,547,84,33182153,0
+Rear_H723,Telemetry_SendPerf(),perf_x_perf_tx,실행시간,1,106,16,33189569,0
+Rear_H723,UDP_ApplyPendingCommand(),perf_x_udp_cmd,실행시간,3,123,18,33197161,0
+Rear_H723,Window_CommandUpdate(),perf_x_win_cmd,실행시간,1,27,12,33204716,0
+Front_H723,플래시 섹터소거 128KB (1회차),flash_erase_us,차단시간,,782620,,1,0
+Front_H723,플래시 섹터소거 128KB (2회차),flash_erase_us,차단시간,,918513,,1,0
+Front_H723,플래시 섹터소거 128KB (3회차),flash_erase_us,차단시간,,929156,,1,0
+Front_H723,소거 중 상행 CAN 유실,erase_loss,유실률,,,,2360,188건 = 7.97%

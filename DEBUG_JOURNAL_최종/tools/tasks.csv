@@ -1,0 +1,14 @@
+﻿보드,태스크,우선순위,주기_ms,기상방식,역할,소유자원,스택_할당B,스택_실사용B,여유율%
+Rear_H723,EthIf,48(실시간),이벤트,세마포어,ETH RX 처리 (CubeMX),ETH,1024,-,-
+Rear_H723,tcpip_thread,24,이벤트,메일박스,lwIP 코어 (CubeMX),lwIP,2048,-,-
+Rear_H723,wheel,27,10,주기,FDCAN1 500k 핑/에코,FDCAN1,-,-,-
+Rear_H723,ctrl,25,10,주기+알림,FDCAN2 250k·하행지령·CAN진단·버스오프복구,FDCAN2,-,-,-
+Rear_H723,net,23,20,주기,'SR'·'SP'·'SD' 송신,lwIP(코어락),-,-,-
+Rear_H723,diag,22,50,주기,DTC 판정,-,-,-,-
+Rear_H723,defaultTask,24,유휴,-,초기화 후 유휴,-,8192,-,-
+Front_H723,EthIf,48(실시간),이벤트,세마포어,ETH RX 처리 (CubeMX),ETH,1024,404,60
+Front_H723,tcpip_thread,24,이벤트,메일박스,lwIP 코어 (CubeMX),lwIP,2048,1020,50
+Front_H723,ctrl,25,10,주기+알림,FDCAN2 하행명령 7종·CAN진단·버스오프복구,FDCAN2,2048,280,86
+Front_H723,net,23,20,주기,'SV'·'SP'·'SD' 송신·존간 FRONT_STATE,lwIP(코어락),4096,996,75
+Front_H723,diag,22,50,주기,DTC 판정·스택힙 기록,-,2048,184,91
+Front_H723,defaultTask,24,유휴,-,PHY지연->MX_LWIP_Init->UDP개설->태스크기동,-,4096,608,85

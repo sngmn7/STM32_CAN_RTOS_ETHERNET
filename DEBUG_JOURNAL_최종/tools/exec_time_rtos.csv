@@ -1,0 +1,13 @@
+﻿보드,구간,심볼,종류,min_us,max_us,avg_us,표본수,1ms초과,비고
+Rear_H723,wheel 태스크 주기 (500k 핑),perf_t_wheel,주기,9456,10071,9999,37133,-,설계 10 ms
+Rear_H723,ctrl 태스크 주기 (250k·하행지령),perf_t_ctrl,주기,9409,10081,9999,37187,-,설계 10 ms
+Rear_H723,net 태스크 주기 (텔레메트리),perf_t_net,주기,19277,20404,19996,18621,-,설계 20 ms
+Rear_H723,diag 태스크 주기 (DTC 판정),perf_t_diag,주기,49189,50432,49997,7459,-,설계 50 ms
+Front_H723,ctrl 태스크 주기 (하행명령 7종),perf_t_ctrl,주기,9300,10180,9999,37372,-,설계 10 ms
+Front_H723,net 태스크 주기 (텔레메트리),perf_t_net,주기,19358,21017,19997,18711,-,설계 20 ms
+Front_H723,diag 태스크 주기 (DTC 판정),perf_t_diag,주기,50632,52543,51045,7344,-,설계 50 ms
+Front_H723,지령변화->CAN송신 [지연],perf_cmd_latency,지연,16,10035,1155,655,58,스케줄러 일괄송신 수정 후
+Front_H723,종단반영 폐루프 [지연],perf_reflect_latency,지연,19373,40426,20179,73,73,젯슨->H723->F407->되보고
+Rear_H723,하행 CAN 지연 [지연],perf_rear_cmd_latency,지연,10,99795,2114,501,51,
+Rear_H723,브레이크 지령->CAN [지연],perf_brake_latency,지연,139,362,208,502,0,알림(notify) 디스패치
+Front_H723,FDCAN RX ISR,perf_can_isr,실행시간,7,13,8,210243,0,
